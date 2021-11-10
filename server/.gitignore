@@ -1,0 +1,8 @@
+.DS_Store
+.vscode
+.VSCodeCounter
+
+.node-version
+node_modules
+
+/static/

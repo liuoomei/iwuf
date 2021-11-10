@@ -1,0 +1,17 @@
+{
+  "extends": "fastify-tsconfig",
+  "ts-node": {
+    "files": true
+  },
+  "compilerOptions": {
+    "outDir": ".dist",
+    "noImplicitThis": false,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts", "*.ts"]
+}
